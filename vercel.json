@@ -1,7 +1,12 @@
 {
-  "buildCommand": "cd ../.. && pnpm build",
-  "outputDirectory": ".next",
+  "buildCommand": "pnpm build",
+  "outputDirectory": "apps/web/.next",
   "framework": "nextjs",
-  "installCommand": "cd ../.. && pnpm install --no-frozen-lockfile",
-  "ignoreCommand": "npx turbo-ignore"
+  "installCommand": "pnpm install",
+  "ignoreCommand": "npx turbo-ignore",
+  "buildEnvironment": {
+    "ENABLE_EXPERIMENTAL_COREPACK": "1",
+    "PNPM_HOME": "/vercel/.pnpm",
+    "NODE_ENV": "production"
+  }
 } 
