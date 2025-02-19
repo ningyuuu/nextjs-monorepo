@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd ../.. && pnpm build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "installCommand": "cd ../.. && pnpm install --no-frozen-lockfile",
+  "ignoreCommand": "npx turbo-ignore"
+} 
