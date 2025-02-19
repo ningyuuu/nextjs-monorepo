@@ -3,10 +3,5 @@
   "outputDirectory": "apps/web/.next",
   "framework": "nextjs",
   "installCommand": "pnpm install",
-  "ignoreCommand": "npx turbo-ignore",
-  "buildEnvironment": {
-    "ENABLE_EXPERIMENTAL_COREPACK": "1",
-    "PNPM_HOME": "/vercel/.pnpm",
-    "NODE_ENV": "production"
-  }
+  "ignoreCommand": "npx turbo-ignore"
 } 
